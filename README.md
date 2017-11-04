@@ -13,7 +13,8 @@ i think that endpoints should be straightforward and not hard to understand, for
 you should also be able to request data in multiple formats like: plain for for example a integer or json or yml for a full page
 if you have a social site you should be able to prefix someones page with api. to view their data in a nice programmable format, maybe with url parameters for auth but the page should always be accessible in a ratelimited way without auth.
 I personall really like REST but it just lacks a way to only query one field, graphql tries to fix this but their fault is that the query will  become really unreadable if you need a lot of very specific features
-in the end a REST/graphql mix would be the best
+And just PLEASE have some websocket endpoint for events like followers
+in the end a REST/graphql mix with a websocket endpoint would be the best.
 
 ### Ratelimiting
 I know that ratelimiting is required but PLEASE dont force me to do less than 1 request per minute or something, this is really annoying and i strongly suggest to use either a monthly limit or use wundergrounds raindrop system
